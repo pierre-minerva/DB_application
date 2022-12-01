@@ -1,5 +1,6 @@
 ### Commands:
-'''
+
+```
 python -m venv .venv
 source .venv/bin/activate
 
@@ -8,8 +9,8 @@ pip pinstall -r requirements.txt
 python create_and_insert.py
 python query.py
 python test.py
-'''
 
+```
 ### Indexing:
 Columns chosen for indexing based on the queries. Indexing was set by including index=True in the create_and_insert.py table classes. Because primary keys are automatically indexed, we left the index=True statement out. 
 
